@@ -27,6 +27,11 @@
 gpu版本相较cpu版本速度提升不多，cpu版本500多文字大概花费在1~2s左右。
 所以后续硬件升级后，可以考虑使用飞桨做情感分析+jionlp做省市提取
 
+
+## windows 安装 CUDA/cuDNN
+
+[详见](https://zhuanlan.zhihu.com/p/99880204)
+
 ## Poetry
 
 windows安装：
