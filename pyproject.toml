@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "paddlenlp-test"
+version = "0.1.0"
+description = ""
+authors = ["王伟 <litterGuy@gmail.com>"]
+readme = "README.md"
+packages = [{ include = "paddlenlp_test" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+paddlenlp = "^2.5.2"
+paddlepaddle-gpu = { url = "https://paddle-wheel.bj.bcebos.com/2.4.2/windows/windows-gpu-cuda11.2-cudnn8.2.1-mkl-avx-vs2019/paddlepaddle_gpu-2.4.2.post112-cp39-cp39-win_amd64.whl"}
+flask = "^2.2.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = 'tsinghua'
+url = 'https://pypi.tuna.tsinghua.edu.cn/simple'
+default = true
