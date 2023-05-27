@@ -8,7 +8,7 @@ from resp import JSONResponse, ErrorResponse
 
 # 情感分析
 schema = ['情感倾向[正向，负向]']
-senta = Taskflow("sentiment_analysis", model="uie-senta-base", schema=schema)
+senta = Taskflow("sentiment_analysis", model="bilstm", schema=schema)
 
 # 省市提取
 province_city_schema = ['省份', '城市']
